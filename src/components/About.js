@@ -9,7 +9,7 @@ const About = () => {
           <div className="hero-text">
             <h1 className="hero-greeting">Hello, I'm</h1>
             <h2 className="hero-name">Salman Younas</h2>
-            <h3 className="hero-title">DevOps Engineer</h3>
+            <h3 className="hero-title">Jnr DevOps Engineer</h3>
             <p className="hero-description">
               Passionate about automating infrastructure, optimizing cloud deployments, 
               and building scalable systems. I specialize in CI/CD pipelines, containerization, 
