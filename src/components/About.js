@@ -9,20 +9,15 @@ const About = () => {
           <div className="hero-text">
             <h1 className="hero-greeting">Hello, I'm</h1>
             <h2 className="hero-name">Salman Younas</h2>
-            <h3 className="hero-title">Jnr DevOps Engineer</h3>
+            <h3 className="hero-title">DevOps Engineer</h3>
             <p className="hero-description">
-              Passionate about automating infrastructure, optimizing cloud deployments, 
-              and building scalable systems. I specialize in CI/CD pipelines, containerization, 
-              and cloud infrastructure management.
+              Computer Science graduate with hands-on experience building and automating systems. 
+              I'm passionate about applying my knowledge of CI/CD and cloud infrastructure to help 
+              teams deploy faster and more reliably, while developing my skills as a DevOps practitioner.
             </p>
             <div className="hero-buttons">
               <a href="#contact" className="btn btn-primary">Get In Touch</a>
               <a href="#projects" className="btn btn-secondary">View Projects</a>
-            </div>
-          </div>
-          <div className="hero-image">
-            <div className="image-placeholder">
-              <span>SY</span>
             </div>
           </div>
         </div>

@@ -31,7 +31,7 @@ const Header = () => {
           </div>
           <nav className={`nav ${isMobileMenuOpen ? 'open' : ''}`}>
             <a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>Home</a>
-            <a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About</a>
+            <a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>Experience</a>
             <a href="#skills" onClick={(e) => { e.preventDefault(); scrollToSection('skills'); }}>Skills</a>
             <a href="#projects" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>Projects</a>
             <a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contact</a>

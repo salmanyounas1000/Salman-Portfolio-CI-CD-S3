@@ -15,37 +15,45 @@ const Contact = () => {
               <div className="contact-icon">📧</div>
               <div>
                 <h3>Email</h3>
-                <p>salman.younas@example.com</p>
+                <a href="mailto:hafizsalman1000@gmail.com" className="contact-link">
+                  hafizsalman1000@gmail.com
+                </a>
+              </div>
+            </div>
+            <div className="contact-item">
+              <div className="contact-icon">📱</div>
+              <div>
+                <h3>Phone</h3>
+                <a href="tel:+923006402732" className="contact-link">
+                  +92300-6402732
+                </a>
+              </div>
+            </div>
+            <div className="contact-item">
+              <div className="contact-icon">📍</div>
+              <div>
+                <h3>Location</h3>
+                <p className="contact-text">Gujranwala, Pakistan</p>
               </div>
             </div>
             <div className="contact-item">
               <div className="contact-icon">💼</div>
               <div>
                 <h3>LinkedIn</h3>
-                <p>linkedin.com/in/salman-younas</p>
+                <a href="https://linkedin.com/in/salmanyounas1000" target="_blank" rel="noopener noreferrer" className="contact-link">
+                  linkedin.com/in/salmanyounas1000
+                </a>
               </div>
             </div>
             <div className="contact-item">
               <div className="contact-icon">🐙</div>
               <div>
                 <h3>GitHub</h3>
-                <p>github.com/salman-younas</p>
+                <a href="https://github.com/salmanyounas1000" target="_blank" rel="noopener noreferrer" className="contact-link">
+                  github.com/salmanyounas1000
+                </a>
               </div>
             </div>
-          </div>
-          <div className="contact-form-wrapper">
-            <form className="contact-form">
-              <div className="form-group">
-                <input type="text" placeholder="Your Name" className="form-input" />
-              </div>
-              <div className="form-group">
-                <input type="email" placeholder="Your Email" className="form-input" />
-              </div>
-              <div className="form-group">
-                <textarea placeholder="Your Message" rows="5" className="form-input"></textarea>
-              </div>
-              <button type="submit" className="btn btn-primary">Send Message</button>
-            </form>
           </div>
         </div>
       </div>
@@ -59,4 +67,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
 

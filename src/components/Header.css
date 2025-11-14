@@ -4,15 +4,16 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: rgba(10, 10, 10, 0.8);
-  backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(20px);
+  transition: all 0.2s ease;
   padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .header.scrolled {
-  background-color: rgba(10, 10, 10, 0.95);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.95);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
 }
 
 .container {
@@ -29,20 +30,18 @@
 
 .logo {
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: opacity 0.2s ease;
 }
 
 .logo:hover {
-  transform: scale(1.1);
+  opacity: 0.7;
 }
 
 .logo-text {
-  font-size: 1.5rem;
-  font-weight: 700;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: -0.02em;
 }
 
 .nav {
@@ -52,30 +51,16 @@
 }
 
 .nav a {
-  color: #e0e0e0;
+  color: #888;
   text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  transition: color 0.2s ease;
   position: relative;
 }
 
-.nav a::after {
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  transition: width 0.3s ease;
-}
-
 .nav a:hover {
-  color: #667eea;
-}
-
-.nav a:hover::after {
-  width: 100%;
+  color: #ffffff;
 }
 
 .mobile-menu-toggle {
@@ -89,11 +74,11 @@
 }
 
 .mobile-menu-toggle span {
-  width: 25px;
-  height: 3px;
-  background-color: #e0e0e0;
-  transition: all 0.3s ease;
-  border-radius: 2px;
+  width: 20px;
+  height: 2px;
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+  border-radius: 1px;
 }
 
 @media (max-width: 768px) {
@@ -103,16 +88,16 @@
 
   .nav {
     position: fixed;
-    top: 70px;
+    top: 60px;
     left: 0;
     right: 0;
-    background-color: rgba(10, 10, 10, 0.98);
+    background-color: rgba(0, 0, 0, 0.98);
     flex-direction: column;
     padding: 2rem;
     gap: 1.5rem;
     transform: translateX(-100%);
     transition: transform 0.3s ease;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .nav.open {
@@ -120,7 +105,7 @@
   }
 
   .nav a {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
