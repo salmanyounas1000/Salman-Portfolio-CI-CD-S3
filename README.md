@@ -1,6 +1,6 @@
 # Salman Younas - Portfolio Website
 
-A modern, responsive portfolio website built with React.
+A modern, responsive portfolio website built with React and deploy on aws s3 bucket with CI/CD github actions.
 
 ## Features
 
